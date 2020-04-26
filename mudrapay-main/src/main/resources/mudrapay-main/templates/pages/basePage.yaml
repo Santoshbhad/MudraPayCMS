@@ -1,0 +1,51 @@
+templateScript: /mudrapay-main/templates/pages/main.ftl
+renderType: freemarker
+visible: true
+title: mudrapay-main.page.basePage.title
+
+areas:
+  header:
+    renderType: freemarker
+    availableComponents:
+      richText:
+        id: mudrapay-main:components/richtext/richtext
+      footer:
+        id: mudrapay-main:components/footer/footer
+      image:
+        id: mudrapay-main:components/image/image
+      title:
+        id: mudrapay-main:components/title/title
+      header:
+        id: mudrapay-main:components/header/header
+      html:
+        id: mudrapay-main:components/html/html
+  main:
+    renderType: freemarker
+    availableComponents:
+      richText:
+        id: mudrapay-main:components/richtext/richtext
+      footer:
+        id: mudrapay-main:components/footer/footer
+      image:
+        id: mudrapay-main:components/image/image
+      title:
+        id: mudrapay-main:components/title/title
+      header:
+        id: mudrapay-main:components/header/header
+      html:
+        id: mudrapay-main:components/html/html
+  footer:
+    renderType: freemarker
+    availableComponents:
+      richText:
+        id: mudrapay-main:components/richtext/richtext
+      footer:
+        id: mudrapay-main:components/footer/footer
+      image:
+        id: mudrapay-main:components/image/image
+      title:
+        id: mudrapay-main:components/title/title
+      header:
+        id: mudrapay-main:components/header/header
+      html:
+        id: mudrapay-main:components/html/html

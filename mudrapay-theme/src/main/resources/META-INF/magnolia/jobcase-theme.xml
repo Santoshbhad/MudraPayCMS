@@ -4,7 +4,7 @@
   <name>${project.artifactId}</name>
   <displayName>${project.name}</displayName>
   <description>${project.description}</description>
-  <versionHandler>com.jobcasecms.employer.setup.JobCaseThemeModuleVersionHandler</versionHandler>
+  <versionHandler>com.mudrapay.employer.setup.JobCaseThemeModuleVersionHandler</versionHandler>
   <version>${project.version}</version>
 
   <dependencies>

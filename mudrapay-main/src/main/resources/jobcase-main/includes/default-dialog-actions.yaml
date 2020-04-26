@@ -1,4 +1,0 @@
-commit:
-  class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
-cancel:
-  class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

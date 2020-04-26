@@ -1,0 +1,11 @@
+dialog: mudrapay-main:pages/pageProperties
+class: info.magnolia.rendering.template.configured.ConfiguredTemplateDefinition
+modelClass: FolderModel
+renderType: site
+type: navigation
+templateScript: /mudrapay-main/templates/pages/mudrapay.ftl
+areas:
+  main:
+    editable: false
+    templateScript: /mudrapay-main/templates/areas/folder.ftl
+title: mudrapay-main.page.navigationFolder.title

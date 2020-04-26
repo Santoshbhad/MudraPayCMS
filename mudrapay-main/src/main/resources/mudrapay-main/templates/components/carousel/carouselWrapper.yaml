@@ -1,0 +1,13 @@
+class: info.magnolia.rendering.template.configured.ConfiguredAreaDefinition
+renderType: freemarker
+dialog: mudrapay-main:components/carouselWrapper
+templateScript: /mudrapay-main/templates/components/carousel/carouselWrapper.ftl
+title: mudrapay-main.component.carouselWrapper.title
+type: list
+
+areas:
+  carouselWrapper:
+    title: mudrapay-main.component.carouselWrapper.area.label
+    availableComponents:
+      tabItem:
+        id: mudrapay-main:components/carousel/carouselItem

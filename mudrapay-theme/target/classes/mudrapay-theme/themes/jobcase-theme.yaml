@@ -1,0 +1,41 @@
+cssFiles:
+  styles:
+    link: /.resources/mudrapay-theme/css/app.bundle.css
+    media: all
+  main: # Grabbed from https://www.jobcase.com/hire/
+    link: /.resources/mudrapay-theme/css/main.css
+    media: all
+jsFiles:
+  styles:
+     link: /.resources/mudrapay-theme/scripts/app.bundle.js
+     media: all
+  bundle: # Grabbed from https://www.jobcase.com/hire/
+     link: /.resources/mudrapay-theme/scripts/bundle.js
+     media: all
+imaging:
+  class: info.magnolia.templating.imaging.VariationAwareImagingSupport
+  variations:
+    "default-320w":
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      width: 320
+      height: 480
+    "default-480w":
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      width: 480
+      height: 720
+    "default-768w":
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      width: 640
+      height: 960
+    "default-1024w":
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      width: 720
+      height: 1080
+    "default-1920hw":
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      width: 800
+      height: 1200
+    "defaultPreload-20hw":
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      width: 20
+      height: 20

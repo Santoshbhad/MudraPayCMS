@@ -1,0 +1,4 @@
+templateScript: /mudrapay-main/templates/components/smartLink/smartLink.ftl
+renderType: freemarker
+title: SmartLink
+dialog: mudrapay-main:components/smartLink

@@ -1,0 +1,19 @@
+templateScript: /mudrapay-main/templates/components/section/section.ftl
+renderType: freemarker
+title: Section
+dialog: mudrapay-main:components/section
+
+areas:
+  area1:
+     renderType: freemarker
+     availableComponents: !include:/mudrapay-main/includes/components/commonAvailableComponents.yaml
+
+  column1: &column1
+     type: list
+     availableComponents: !include:/mudrapay-main/includes/components/commonAvailableComponents.yaml
+
+  column2: *column1
+  column3: *column1
+  column4: *column1
+  column5: *column1
+  column6: *column1

@@ -1,6 +1,0 @@
-[#macro assignValues]
-    [#assign navigation = model.navigation![]/]
-    [#assign rootPage = navfn.rootPage(content)/]
-    [#assign site = sitefn.site()! /]
-    [#assign theme = sitefn.theme(site)! /]
-[/#macro]

@@ -1,0 +1,15 @@
+class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+targetWorkspace: dam
+appName: assets
+identifierToPathConverter:
+  class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+contentPreviewDefinition:
+  contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+validators:
+  mimeTypeValidator:
+    class: com.mudrapaycms.employer.templating.form.validator.AssetMimeTypeValidatorDefinition
+    errorMessage: jobcase-cms.validation.errorMessage.mime-type
+    acceptedMimeTypes:
+       - image/png
+       - image/jpeg
+       - image/svg+xml

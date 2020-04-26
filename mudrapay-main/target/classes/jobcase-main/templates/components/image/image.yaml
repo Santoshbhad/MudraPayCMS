@@ -1,4 +1,0 @@
-templateScript: /jobcase-main/templates/components/image/image.ftl
-renderType: freemarker
-title: Image
-dialog: jobcase-main:components/image

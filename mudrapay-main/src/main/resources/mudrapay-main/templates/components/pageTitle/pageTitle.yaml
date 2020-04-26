@@ -1,0 +1,4 @@
+templateScript: /mudrapay-main/templates/components/pageTitle/pageTitle.ftl
+renderType: freemarker
+title: Page Title
+dialog: mudrapay-main:components/pageTitle

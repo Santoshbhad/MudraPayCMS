@@ -1,4 +1,0 @@
-templateScript: /jobcase-main/templates/components/richtext/richtext.ftl
-renderType: freemarker
-title: RichText (RTE)
-dialog: jobcase-main:components/richtext
