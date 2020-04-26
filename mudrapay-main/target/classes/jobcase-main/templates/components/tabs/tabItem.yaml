@@ -1,0 +1,26 @@
+renderType: freemarker
+templateScript: /jobcase-main/templates/components/tabs/tabItem.ftl
+dialog: jobcase-main:components/tabItem
+title: jobcase-main.component.tabItem.title
+
+areas:
+  tabItem:
+    title: jobcase-main.component.tabItem.area.label
+    availableComponents: !include:/jobcase-main/includes/components/commonAvailableComponents.yaml
+      tabsWrapper:
+        enabled: false
+
+  area1:
+    renderType: freemarker
+    availableComponents: !include:/jobcase-main/includes/components/commonAvailableComponents.yaml
+
+
+  column1: &column1
+    type: list
+    availableComponents: !include:/jobcase-main/includes/components/commonAvailableComponents.yaml
+
+  column2: *column1
+  column3: *column1
+  column4: *column1
+  column5: *column1
+  column6: *column1

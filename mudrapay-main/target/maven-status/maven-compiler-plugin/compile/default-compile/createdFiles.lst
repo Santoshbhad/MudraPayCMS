@@ -1,0 +1,10 @@
+com/jobcasecms/employer/common/navigation/NavigationBuilder.class
+com/jobcasecms/employer/templating/pages/FolderModel.class
+com/jobcasecms/employer/templating/functions/JobcaseTemplatingFunctions.class
+com/jobcasecms/employer/common/navigation/SingleNavigationItem.class
+com/jobcasecms/employer/JobCaseMainModule.class
+com/jobcasecms/employer/templating/areas/NavigationMainArea.class
+com/jobcasecms/employer/common/navigation/NavigationItem.class
+com/jobcasecms/employer/setup/JobCaseEmployerModuleVersionHandler.class
+com/jobcasecms/employer/common/navigation/ListNavigationItem.class
+com/jobcasecms/employer/setup/tasks/FolderBootstrapTask.class

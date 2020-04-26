@@ -1,0 +1,14 @@
+form:
+  tabs:
+    - name: tabListItem
+      label: listItem
+      fields:
+        - name: listItem
+          fieldType: text
+          label: listItem
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

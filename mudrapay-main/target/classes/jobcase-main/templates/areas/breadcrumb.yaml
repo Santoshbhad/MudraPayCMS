@@ -1,0 +1,9 @@
+class: info.magnolia.rendering.template.configured.ConfiguredAreaDefinition
+dialog: jobcase-main:areas/breadcrumb
+templateScript: /jobcase-main/templates/areas/breadcrumb.ftl
+modelClass: com.jobcasecms.employer.templating.areas.Breadcrumb
+type: noComponent
+editable: true
+inheritance:
+  enabled: true
+  properties: all

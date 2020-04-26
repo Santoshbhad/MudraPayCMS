@@ -1,0 +1,10 @@
+templateScript: /jobcase-main/templates/components/list/list.ftl
+title: List
+dialog: jobcase-main:components/list
+renderType: freemarker
+
+areas:
+  items:
+    renderType: freemarker
+    type: list
+    availableComponents: !include:/jobcase-main/includes/components/commonAvailableComponents.yaml

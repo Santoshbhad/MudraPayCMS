@@ -1,0 +1,50 @@
+class: info.magnolia.module.site.templates.PrototypeTemplateDefinition
+areas:
+  htmlHeader:
+    type: noComponent
+    createAreaNode: false
+    templateScript: /jobcase-main/templates/areas/htmlHeader.ftl
+  header:
+    type: noComponent
+    createAreaNode: false
+    editable: false
+    templateScript: /jobcase-main/templates/areas/header.ftl
+    areas:
+      mobileNavigation: !include /jobcase-main/templates/areas/navigation/mobileNavigation.yaml
+      mainNavigation: !include /jobcase-main/templates/areas/navigation/mainNavigation.yaml
+      secondaryNavigation: !include /jobcase-main/templates/areas/navigation/secondaryNavigation.yaml
+  main:
+    templateScript: /jobcase-main/templates/areas/main.ftl
+    type: list
+    availableComponents:
+      richText:
+        id: jobcase-main:components/richtext/richtext
+      footer:
+        id: jobcase-main:components/footer/footer
+      image:
+        id: jobcase-main:components/image/image
+      title:
+        id: jobcase-main:components/title/title
+      header:
+        id: jobcase-main:components/header/header
+      html:
+        id: jobcase-main:components/html/html
+      list:
+        id: jobcase-main:components/list/list
+      listItem:
+         id: jobcase-main:components/listItem/listItem
+      section:
+         id: jobcase-main:components/section/section
+      smartLink:
+         id: jobcase-main:components/smartLink/smartLink
+
+  footer:
+    templateScript: /jobcase-main/templates/areas/footer.ftl
+    inheritance:
+      components: all
+      enabled: true
+      properties: all
+#    areas:
+#      footerTop: !include /jobcase-main/templates/areas/footer/footerTop.yaml
+#      footerMain: !include /jobcase-main/templates/areas/footer/footerMain.yaml
+#      footerBottom: !include /jobcase-main/templates/areas/footer/footerBottom.yaml

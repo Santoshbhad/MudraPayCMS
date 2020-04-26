@@ -1,0 +1,302 @@
+label: Section
+form:
+  tabs:
+  - name:  display
+    label: Display
+    fields:
+    - name: display
+      label: Display As
+      fieldType: select
+      options:
+      - name: default
+        label: Default
+        selected : true
+
+      - name:  needFinancialSupport
+        label: Need Financial Support
+
+      - name:  topNavigation
+        label: Top Navigation
+
+      - name: typesOfLoans
+        label: Types Of Loans
+
+      - name: inovicingMadeEasy
+        label: Inovicing Made Easy
+
+      - name: tryOurApp
+        label: Try Our App
+
+      - name: contactUs
+        label: Contact Us
+
+      - name: aboutUs_whyJobcase
+        label: Jobcase Page Banner [Why Jobcase/Chewy.com]
+
+      - name: aboutus_whatJobcaseDelivers
+        label: What Jobcase Delivers
+
+      - name: aboutus_jobcaseByTheNumbers
+        label: Jobcase By The Numbers
+
+      - name: pricing
+        label: Pricing Page Banner
+
+      - name: aboutus_meetTheCustomerSuccessTeam
+        label: Meet The Customer Success Team
+
+      - name: aboutus_hiringTodayChallenge
+        label: Hiring Today Is A Challenge
+
+      - name: jobcase_brandColumn
+        label: Jobcase Brand Columns
+
+      - name: jobcase_page_banner
+        label: Jobcase Page Banner
+
+      - name: jobcase_quote_content
+        label: Jobcase Quote Content
+
+      - name: jobcase_quote_image
+        label: Jobcase Quote Image
+
+      - name: jobcase_iframe
+        label: Jobcase Iframe
+
+      - name: jobcase_million_workers
+        label: A Community Of 90+ Million Workers
+
+      - name: jobcase_gets_your_message
+        label: Jobcase Gets Your Message To The Right People
+
+      - name: jobcase_customer_success_team_supports
+        label: Jobcase Customer Success Team Supports You
+
+      - name: jobcase_free_job_post
+        label: Jobcase Free Job Post
+
+      - name: jobcase_recruiting_professionals
+        label: Jobcase For Recruiting Professionals
+
+      - name: jobcase_explore_more_ways_to_hire
+        label: Explore More Ways To Hire Jobcase Members
+
+      - name: jobcase_pricing_list
+        label: Jobcase Pricing List
+
+      - name: view_more_case_studies
+        label: Jobcase View More Case Studies
+
+      - name: aboutUs_theJobcaseDifference_rightImg
+        label: Jobcase Difference Right Image
+
+      - name: aboutUs_theJobcaseDifference_leftImg
+        label: Jobcase Difference Left Image
+
+      - name: jobcase_for_recruiting_professionals_rightImg
+        label: Jobcase For Recruiting Professionals Right Image
+
+      - name: jobcase_for_recruiting_professionals_leftImg
+        label: Jobcase For Recruiting Professionals Left Image
+
+      - name: jobcase_for_recruiting_professionals_circleImg
+        label: Jobcase For Recruiting Professionals Cricle Image
+
+      - name: jobcase_for_recruiting_professionals_circle_rightImg
+        label: Jobcase For Recruiting Professionals Cricle Right Image
+
+      - name: jobcase_for_recruiting_professionals_circle_leftImg
+        label: Jobcase For Recruiting Professionals Cricle Left Image
+
+      - name: jobcase_solutions_for_recruiting_professionals_rightImg
+        label: Jobcase Solutions for Recruiting Professionals Right Image
+
+      - name: jobcase_solutions_for_recruiting_professionals_leftImg
+        label: Jobcase Solutions for Recruiting Professionals Left Image
+
+      - name: jobcase_hiring_managers_rightImg
+        label: Jobcase Hiring Managers Right Image
+
+      - name: jobcase_solutions_new_store_opening_leftImg
+        label: Jobcase Solutions New Store Opening Left Image
+
+      - name: jobcase_page_banner_two
+        label: Jobcase Page Banner Common
+
+      - name: jobcase_quote_content_background
+        label: Jobcase Quote Content Background
+
+      - name: jobcase_page_banner_three
+        label: Jobcase Page Banner [Recruiting Professionals]
+
+      - name: jobcase_link
+        label: Jobcase Link
+
+      - name: jobcase_contact
+        label: Jobcase Contact Us
+
+      - name: jobcase_contact_thankyou
+        label: Jobcase Contact Us Thank You Page
+
+      - name: jobcase_hiring_managers_free_job_post
+        label: Jobcase Hiring Managers Free job post
+
+      - name: jobcase_tell_us_about_yourself
+        label: Jobcase Tell us about yourself
+
+      - name: jobcase_tell_us_about_yourself_banner
+        label: Jobcase Tell us about yourself Page Banner
+
+      - name: jobcase_hire_a_jobcase_landing_page
+        label: Jobcase Hire a Jobcase [Landing page]
+
+      - name: jobcase_meet_jobcase_members_landing_page
+        label: Jobcase Meet Jobcase Members [Landing page]
+
+      - name: get_started_with_jobcase_for_gig_companies
+        label: Get started with Jobcase for Gig Companies
+
+      - name: jobcase_results_matter
+        label: Jobcase Results matter
+
+      - name: brandImageSectionLandingPage
+        label: Brand Image Section [Landing page]
+
+      - name: jobcaseform
+        label: Jobcase Form [Landing Page]
+
+  - name: tabButtonAndIcon
+    label: Layout
+    fields:
+    - name: center
+      class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+      type: Boolean
+      label: Center
+      buttonLabel: If checked, Center text in the section
+      defaultValue : false
+
+    - name: layout
+      label: Layout In Columns
+      fieldType: select
+      options:
+      - name: 12
+        label: 1 Column
+        selected : true
+      - name: 6x6
+        label: 2 Column
+      - name: 4x4x4
+        label: 3 Column
+      - name: 3x3x3x3
+        label: 4 Column
+      - name: 2x2x2x2x2
+        label: 5 Column
+      - name: 2x2x2x2x2x2
+        label: 6 Column
+
+    - name: fullWidth
+      class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+      type: Boolean
+      label: Limit container to fixed width
+      buttonLabel: Limit container to fixed width
+      defaultValue : false
+
+  - name: tabButtonAndIcon
+    label: Margin Padding
+    fields:
+    - name: margin
+      fieldType: select
+      label: Margin
+      options:
+      - name: marginTopBottom
+        label: Margin Top and Bottom
+
+      - name: marginLeftRight
+        label: Margin Left and Right
+
+      - name: margin-left-right-0
+        label: None
+        selected : true
+
+    - name: padding
+      fieldType: select
+      label: Padding
+      options:
+      - name: paddingTopBottom
+        label: Padding Top and Bottom
+
+      - name: paddingLeftRight
+        label: Padding Left and Right
+
+      - name: padding-left-right-0
+        label: None
+        selected : true
+
+  - name: tabButtonAndIcon
+    label: Theme
+    fields:
+    - name: themeColor
+      fieldType: select
+      label: Background Color
+      options:
+      - name: none
+        label: None
+        selected : true
+
+      - name: white
+        label: White
+
+      - name: green
+        label: Green
+
+      - name: orange
+        label: Orange
+
+      - name: purple
+        label: Purple
+
+      - name: black
+        label: Black
+
+    - name: themeColorPicker
+      fieldType: text
+      label: Background Color by Hex
+
+    - name: textColor
+      fieldType: select
+      label: Text Color
+      options:
+      - name: none
+        label: None
+        selected : true
+
+      - name: white
+        label: White
+
+      - name: green
+        label: Green
+
+      - name: orange
+        label: Orange
+
+      - name: purple
+        label: Purple
+
+      - name: black
+        label: Black
+
+    - name: themeCustomClass
+      fieldType: text
+      label: Custom Class
+
+    - name: image
+      label: "Image from Assets"
+      description: "Select an asset"
+      appName: assets
+      targetWorkspace: dam
+      class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+      identifierToPathConverter:
+        class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+      contentPreviewDefinition:
+        contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+
+actions: !include:/jobcase-main/includes/default-dialog-actions.yaml

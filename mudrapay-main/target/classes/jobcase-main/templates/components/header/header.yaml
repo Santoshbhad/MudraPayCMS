@@ -1,0 +1,25 @@
+templateScript: /jobcase-main/templates/components/header/header.ftl
+renderType: freemarker
+title: Header
+
+areas:
+  Toll-Free-Number:
+     renderType: freemarker
+     availableComponents: !include:/jobcase-main/includes/components/commonAvailableComponents.yaml
+
+  Whats-App-Number:
+     renderType: freemarker
+     availableComponents: !include:/jobcase-main/includes/components/commonAvailableComponents.yaml
+
+
+  Support-Email:
+     renderType: freemarker
+     availableComponents: !include:/jobcase-main/includes/components/commonAvailableComponents.yaml
+
+
+  Get-The-App:
+     renderType: freemarker
+     availableComponents: !include:/jobcase-main/includes/components/commonAvailableComponents.yaml
+
+
+

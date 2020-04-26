@@ -1,0 +1,15 @@
+.smartLink .beforetext {
+  float: left;
+}
+
+.smartLink .aftertext {
+  float: right;
+}
+
+.smartLink img {
+  height: 50px;
+  width: 50px;
+}
+
+
+

@@ -1,0 +1,13 @@
+# "inherited" (copied) from "mte/dialogs/pages/pageProperties.yaml"
+name: tabMeta
+fields:
+  - name: keywords
+    class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+    label: jobcase-main.pages.pageProperties.tabMeta.keywords.label
+    i18n: true
+    rows: 3
+  - name: description
+    class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+    label: jobcase-main.pages.pageProperties.tabMeta.description.label
+    i18n: true
+    rows: 5

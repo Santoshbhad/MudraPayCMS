@@ -1,0 +1,8 @@
+Best practice!
+
+This is a good place to put all frontend stuff including npm modules, sass components and so on.
+
+After building this frontend stuff, generated css, js and other files
+have to appears in /jobcase-theme/src/main/resources/jobcase-theme folder to be available for the Magnolia.
+
+The building process can be run from the maven by using some plugins.

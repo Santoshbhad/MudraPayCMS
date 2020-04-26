@@ -1,0 +1,7 @@
+label: jobcase-main.pages.pageProperties.label
+form:
+  tabs:
+    - !include:/jobcase-main/includes/tabs/pagePropertiesTabMain.yaml
+    - !include:/jobcase-main/includes/tabs/pagePropertiesTabMeta.yaml
+
+actions: !include:/jobcase-main/includes/default-dialog-actions.yaml

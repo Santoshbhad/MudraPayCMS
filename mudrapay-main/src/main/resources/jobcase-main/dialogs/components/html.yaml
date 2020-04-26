@@ -1,0 +1,28 @@
+form:
+  tabs:
+    - name: tabTexts
+      label: HTML
+      fields:
+        - name: html
+          class: info.magnolia.ui.form.field.definition.CodeFieldDefinition
+          label: HTML
+
+    - name: cssTab
+      label: CSS
+      fields:
+        - name: style
+          class: info.magnolia.ui.form.field.definition.CodeFieldDefinition
+          label: CSS
+
+    - name: jsTab
+      label: JS
+      fields:
+        - name: script
+          class: info.magnolia.ui.form.field.definition.CodeFieldDefinition
+          label: JS
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

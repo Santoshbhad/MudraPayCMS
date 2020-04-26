@@ -1,0 +1,4 @@
+templateScript: /jobcase-main/templates/components/iframe/iframe.ftl
+renderType: freemarker
+title: iframe
+dialog: jobcase-main:components/iframe

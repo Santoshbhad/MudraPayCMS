@@ -1,0 +1,30 @@
+form:
+  tabs:
+    - name: tabText
+      label: Text
+      fields:
+        - name: title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+
+        - name: titleSize
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: Select Title Tag
+          options:
+           - label: "H1"
+             value: h1
+           - label: "H2"
+             value: h2
+           - label: "H3"
+             value: h3
+           - label: "H4"
+             value: h4
+           - label: "H5"
+             value: h5
+           - label: "H6"
+             value: h6
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

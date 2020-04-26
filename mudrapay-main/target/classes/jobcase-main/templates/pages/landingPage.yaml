@@ -1,0 +1,16 @@
+title: jobcase-main.page.landingPage.title
+dialog: jobcase-main:pages/homePageProperties
+class: info.magnolia.rendering.template.configured.ConfiguredTemplateDefinition
+templateScript: /jobcase-main/templates/pages/landing-page.ftl
+renderType: site
+type: home # it's important for navigation to have HOME type here
+# Enabling editing header and footer areas because it's disabled in prototype.yaml
+areas:
+  header:
+    editable: true
+  breadcrum:
+    editable: true
+  footer:
+    editable: true
+  landingPage:
+    editable: true

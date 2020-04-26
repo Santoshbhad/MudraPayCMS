@@ -1,0 +1,27 @@
+# "inherited" (copied) from "mte/dialogs/pages/pageProperties.yaml"
+name: tabMain
+fields:
+  - name: title
+    class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+    label: jobcase-main.pages.pageProperties.tabMain.title.label
+    i18n: true
+  - name: navigationTitle
+    class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+    label: jobcase-main.pages.pageProperties.tabMain.navigationTitle.label
+    i18n: true
+  - name: navigationDescription
+    class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+    label: jobcase-main.pages.pageProperties.tabMain.navigationDescription.label
+    description: jobcase-main.pages.pageProperties.tabMain.navigationDescription.description
+    i18n: true
+  - name: windowTitle
+    class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+    label: jobcase-main.pages.pageProperties.tabMain.windowTitle.label
+    i18n: true
+  - name: hideInNav
+    class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+    label: jobcase-main.pages.pageProperties.tabMain.hideInNav.label
+    buttonLabel: jobcase-main.pages.pageProperties.tabMain.hideInNav.buttonLabel
+    defaultValue: false
+    i18n: false
+    type: Boolean

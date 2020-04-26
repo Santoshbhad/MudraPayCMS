@@ -1,0 +1,4 @@
+templateScript: /jobcase-main/templates/components/pageTitle/pageTitle.ftl
+renderType: freemarker
+title: Page Title
+dialog: jobcase-main:components/pageTitle

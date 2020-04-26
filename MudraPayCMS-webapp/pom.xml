@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>MudraPayCMS</groupId>
+    <artifactId>MudraPayCMS</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  <artifactId>MudraPayCMS-webapp</artifactId>
+  <name>MudraPayCMS: webapp</name>
+  <packaging>war</packaging>
+  <dependencies>
+
+    <dependency>
+      <groupId>info.magnolia.bundle</groupId>
+      <artifactId>magnolia-community-webapp</artifactId>
+      <type>pom</type>
+      <exclusions>
+        <!-- Exclude all but en lang modules. if specific language is needed disable the exclusion. -->
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-ar</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-cs</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-da</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-de</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-el</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-es</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-fi</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-fr</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-he</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-hr</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-hu</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-id</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-it</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-ja</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-ko</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-nl</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-no</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-pl</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-pt</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-pt_BR</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-ru</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-sk</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-sq</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-sv</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-tr</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-zh_CN</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>info.magnolia.lang</groupId>
+          <artifactId>magnolia-lang-zh_TW</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.bundle</groupId>
+      <artifactId>magnolia-community-webapp</artifactId>
+      <type>war</type>
+    </dependency>
+
+
+    <dependency>
+      <groupId>info.magnolia</groupId>
+      <artifactId>magnolia-module-public-user-registration</artifactId>
+    </dependency>
+
+    <!-- Other dependencies -->
+
+
+    <!-- Own modules dependencies -->
+    <dependency>
+      <groupId>com.jobcasecms.employer</groupId>
+      <artifactId>jobcase-main</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.jobcasecms.employer</groupId>
+      <artifactId>jobcase-theme</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+  <plugins>
+
+  <plugin>
+    <artifactId>maven-war-plugin</artifactId>
+    <configuration>
+      <!-- exclude jars copied "physically" from the webapp overlay - so we only get those resolved by Maven's dependency management -->
+      <dependentWarExcludes>WEB-INF/lib/*.jar</dependentWarExcludes>
+    </configuration>
+  </plugin>
+
+</plugins>
+  </build>
+</project>
