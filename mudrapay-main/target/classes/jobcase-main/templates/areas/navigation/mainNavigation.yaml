@@ -1,6 +1,0 @@
-class: info.magnolia.rendering.template.configured.ConfiguredAreaDefinition
-templateScript: /jobcase-main/templates/areas/navigation/mainNavigation.ftl
-modelClass: com.jobcasecms.employer.templating.areas.NavigationMainArea
-type: noComponent
-editable: false
-createAreaNode: false

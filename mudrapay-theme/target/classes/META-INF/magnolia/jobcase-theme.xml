@@ -4,7 +4,7 @@
   <name>mudrapay-theme</name>
   <displayName>MudraPayCMS - Theme Magnolia Module</displayName>
   <description>MudraPay Project - Theme module</description>
-  <versionHandler>com.jobcasecms.employer.setup.JobCaseThemeModuleVersionHandler</versionHandler>
+  <versionHandler>com.mudrapay.employer.setup.JobCaseThemeModuleVersionHandler</versionHandler>
   <version>1.0-SNAPSHOT</version>
 
   <dependencies>

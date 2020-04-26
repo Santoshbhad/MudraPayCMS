@@ -1,0 +1,4 @@
+templateScript: /mudrapay-main/templates/components/html/html.ftl
+renderType: freemarker
+title: HTML
+dialog: mudrapay-main:components/html

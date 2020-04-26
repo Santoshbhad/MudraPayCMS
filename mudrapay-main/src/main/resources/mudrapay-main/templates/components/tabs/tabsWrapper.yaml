@@ -1,0 +1,12 @@
+class: info.magnolia.rendering.template.configured.ConfiguredAreaDefinition
+renderType: freemarker
+templateScript: /mudrapay-main/templates/components/tabs/tabsWrapper.ftl
+title: mudrapay-main.component.tabsWrapper.title
+type: list
+
+areas:
+  tabsWrapper:
+    title: mudrapay-main.component.tabsWrapper.area.label
+    availableComponents:
+      tabItem:
+        id: mudrapay-main:components/tabs/tabItem

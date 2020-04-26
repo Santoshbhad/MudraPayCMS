@@ -1,0 +1,4 @@
+templateScript: /mudrapay-main/templates/components/image/image.ftl
+renderType: freemarker
+title: Image
+dialog: mudrapay-main:components/image

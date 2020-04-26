@@ -1,0 +1,10 @@
+templateScript: /mudrapay-main/templates/components/listItem/listItem.ftl
+renderType: freemarker
+title: ListItem
+dialog: mudrapay-main:components/listItem
+
+areas:
+  listItem:
+    renderType: freemarker
+    type: list
+    availableComponents: !include:/mudrapay-main/includes/components/commonAvailableComponents.yaml

@@ -1,0 +1,7 @@
+label: mudrapay-main.pages.pageProperties.label
+form:
+  tabs:
+    - !include:/mudrapay-main/includes/tabs/pagePropertiesTabMain.yaml
+    - !include:/mudrapay-main/includes/tabs/pagePropertiesTabMeta.yaml
+
+actions: !include:/mudrapay-main/includes/default-dialog-actions.yaml

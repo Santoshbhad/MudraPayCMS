@@ -1,0 +1,8 @@
+class: info.magnolia.rendering.template.configured.ConfiguredAreaDefinition
+type: list
+inheritance:
+  components: all
+  enabled: true
+availableComponents:
+  smartLink:
+    id: mudrapay-main:components/smartLink/smartLink

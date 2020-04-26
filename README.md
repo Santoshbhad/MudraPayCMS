@@ -51,7 +51,7 @@
     by setting a property magnolia.repositories.jackrabbit.config
     
     
-#### jobcase-main
+#### mudrapay-main
 
  This is the main module for development. All common things: components, templates, pages, dialogs should be located here.
  
@@ -69,7 +69,7 @@ This is theme module. All frontend stuff should be placed here.
 
 If you use some frontend technologies for building page prototypes, put everything inside **/src/main/frontend folder**.
 You can use NPM, webpacks, react, angular and so on: use them here. And create a scripts which will place built bundle files 
-inside /src/main/resources/jobcase-theme folder.
+inside /src/main/resources/mudrapay-theme folder.
 
  **TODO: module structure** 
 

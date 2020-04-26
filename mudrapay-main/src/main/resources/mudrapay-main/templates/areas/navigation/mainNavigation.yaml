@@ -1,0 +1,6 @@
+class: info.magnolia.rendering.template.configured.ConfiguredAreaDefinition
+templateScript: /mudrapay-main/templates/areas/navigation/mainNavigation.ftl
+modelClass: NavigationMainArea
+type: noComponent
+editable: false
+createAreaNode: false

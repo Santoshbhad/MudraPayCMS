@@ -1,4 +1,0 @@
-templateScript: /jobcase-main/templates/components/smartLink/smartLink.ftl
-renderType: freemarker
-title: SmartLink
-dialog: jobcase-main:components/smartLink
