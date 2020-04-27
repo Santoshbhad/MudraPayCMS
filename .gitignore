@@ -17,9 +17,9 @@ bin
 
 # ide stuff
 
-/JobCaseCMS-webapp/target/
-/JobCaseCMS-Main/target/
-/jobcase-theme/target/
+/MudraPayCMS-webapp/target/
+/MudraPayCMS-Main/target/
+/mudrapay-theme/target/
 /mudrapay-main/target/
 .project
 .projects
