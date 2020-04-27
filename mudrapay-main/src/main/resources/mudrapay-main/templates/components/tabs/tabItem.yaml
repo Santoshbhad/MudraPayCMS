@@ -1,0 +1,26 @@
+renderType: freemarker
+templateScript: /mudrapay-main/templates/components/tabs/tabItem.ftl
+dialog: mudrapay-main:components/tabItem
+title: mudrapay-main.component.tabItem.title
+
+areas:
+  tabItem:
+    title: mudrapay-main.component.tabItem.area.label
+    availableComponents: !include:/mudrapay-main/includes/components/commonAvailableComponents.yaml
+      tabsWrapper:
+        enabled: false
+
+  area1:
+    renderType: freemarker
+    availableComponents: !include:/mudrapay-main/includes/components/commonAvailableComponents.yaml
+
+
+  column1: &column1
+    type: list
+    availableComponents: !include:/mudrapay-main/includes/components/commonAvailableComponents.yaml
+
+  column2: *column1
+  column3: *column1
+  column4: *column1
+  column5: *column1
+  column6: *column1

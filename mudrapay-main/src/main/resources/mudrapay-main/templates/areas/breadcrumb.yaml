@@ -1,0 +1,9 @@
+class: info.magnolia.rendering.template.configured.ConfiguredAreaDefinition
+dialog: mudrapay-main:areas/breadcrumb
+templateScript: /mudrapay-main/templates/areas/breadcrumb.ftl
+modelClass: com.mudrapaycms.employer.templating.areas.Breadcrumb
+type: noComponent
+editable: true
+inheritance:
+  enabled: true
+  properties: all

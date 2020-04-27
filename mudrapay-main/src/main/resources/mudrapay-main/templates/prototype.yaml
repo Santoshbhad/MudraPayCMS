@@ -1,0 +1,50 @@
+class: info.magnolia.module.site.templates.PrototypeTemplateDefinition
+areas:
+  htmlHeader:
+    type: noComponent
+    createAreaNode: false
+    templateScript: /mudrapay-main/templates/areas/htmlHeader.ftl
+  header:
+    type: noComponent
+    createAreaNode: false
+    editable: false
+    templateScript: /mudrapay-main/templates/areas/header.ftl
+    areas:
+      mobileNavigation: !include /mudrapay-main/templates/areas/navigation/mobileNavigation.yaml
+      mainNavigation: !include /mudrapay-main/templates/areas/navigation/mainNavigation.yaml
+      secondaryNavigation: !include /mudrapay-main/templates/areas/navigation/secondaryNavigation.yaml
+  main:
+    templateScript: /mudrapay-main/templates/areas/main.ftl
+    type: list
+    availableComponents:
+      richText:
+        id: mudrapay-main:components/richtext/richtext
+      footer:
+        id: mudrapay-main:components/footer/footer
+      image:
+        id: mudrapay-main:components/image/image
+      title:
+        id: mudrapay-main:components/title/title
+      header:
+        id: mudrapay-main:components/header/header
+      html:
+        id: mudrapay-main:components/html/html
+      list:
+        id: mudrapay-main:components/list/list
+      listItem:
+         id: mudrapay-main:components/listItem/listItem
+      section:
+         id: mudrapay-main:components/section/section
+      smartLink:
+         id: mudrapay-main:components/smartLink/smartLink
+
+  footer:
+    templateScript: /mudrapay-main/templates/areas/footer.ftl
+    inheritance:
+      components: all
+      enabled: true
+      properties: all
+#    areas:
+#      footerTop: !include /mudrapay-main/templates/areas/footer/footerTop.yaml
+#      footerMain: !include /mudrapay-main/templates/areas/footer/footerMain.yaml
+#      footerBottom: !include /mudrapay-main/templates/areas/footer/footerBottom.yaml

@@ -11,7 +11,7 @@
       <sv:value>info.magnolia.module.site.templates.ReferencingPrototypeTemplateSettings</sv:value>
     </sv:property>
     <sv:property sv:name="prototypeId" sv:type="String">
-      <sv:value>jobcase-main:prototype</sv:value>
+      <sv:value>mudrapay-main:prototype</sv:value>
     </sv:property>
     <sv:property sv:name="renderType" sv:type="String">
       <sv:value>site</sv:value>
@@ -29,7 +29,7 @@
             <sv:value>mgnl:contentNode</sv:value>
           </sv:property>
           <sv:property sv:name="id" sv:type="String">
-            <sv:value>jobcase-main:pages/home</sv:value>
+            <sv:value>mudrapay-main:pages/home</sv:value>
           </sv:property>
         </sv:node>
         <sv:node sv:name="article">
@@ -37,7 +37,7 @@
             <sv:value>mgnl:contentNode</sv:value>
           </sv:property>
           <sv:property sv:name="id" sv:type="String">
-            <sv:value>jobcase-main:pages/article</sv:value>
+            <sv:value>mudrapay-main:pages/article</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>

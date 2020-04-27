@@ -1,0 +1,33 @@
+templateScript: /mudrapay-main/templates/components/footer/footer.ftl
+renderType: freemarker
+title: Footer
+
+areas:
+  Copyright:
+     renderType: freemarker
+     availableComponents:
+       richTextComponent:
+            id: mudrapay-main:components/richtext/richtext
+       footerComponent:
+            id: mudrapay-main:components/footer/footer
+       imageComponent:
+            id: mudrapay-main:components/image/image
+
+  TermsOfUse:
+     renderType: freemarker
+     availableComponents:
+       richTextComponent:
+            id: mudrapay-main:components/richtext/richtext
+       footerComponent:
+            id: mudrapay-main:components/footer/footer
+       imageComponent:
+            id: mudrapay-main:components/image/image
+  JobCaseLogo:
+     renderType: freemarker
+     availableComponents:
+       richTextComponent:
+            id: mudrapay-main:components/richtext/richtext
+       footerComponent:
+            id: mudrapay-main:components/footer/footer
+       imageComponent:
+            id: mudrapay-main:components/image/image

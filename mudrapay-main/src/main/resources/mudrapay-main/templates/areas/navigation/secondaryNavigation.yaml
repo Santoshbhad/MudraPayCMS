@@ -1,0 +1,13 @@
+class: info.magnolia.rendering.template.configured.ConfiguredAreaDefinition
+templateScript: /mudrapay-main/templates/areas/navigation/secondaryNavigation.ftl
+type: list
+inheritance:
+  components: all
+  enabled: true
+  properties: all
+availableComponents:
+  smartLink:
+    id: mudrapay-main:components/smartLink/smartLink
+
+parameters:
+  mainClass: menu-1

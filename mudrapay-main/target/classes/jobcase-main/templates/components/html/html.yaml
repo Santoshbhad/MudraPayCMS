@@ -1,4 +1,0 @@
-templateScript: /jobcase-main/templates/components/html/html.ftl
-renderType: freemarker
-title: HTML
-dialog: jobcase-main:components/html

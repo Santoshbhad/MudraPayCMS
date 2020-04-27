@@ -1,0 +1,4 @@
+templateScript: /mudrapay-main/templates/components/iframe/iframe.ftl
+renderType: freemarker
+title: iframe
+dialog: mudrapay-main:components/iframe

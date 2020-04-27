@@ -1,0 +1,12 @@
+renderType: freemarker
+templateScript: /mudrapay-main/templates/components/carousel/carouselItem.ftl
+title: mudrapay-main.component.carouselItem.title
+
+areas:
+  carouselItem:
+    title: mudrapay-main.component.carouselItem.area.label
+    availableComponents: !include:/mudrapay-main/includes/components/commonAvailableComponents.yaml
+      carouselWrapper:
+        enabled: false
+      tabsWrapper:
+        enabled: false

@@ -144,16 +144,6 @@
 
 
     <!-- Own modules dependencies -->
-    <dependency>
-      <groupId>com.jobcasecms.employer</groupId>
-      <artifactId>jobcase-main</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.jobcasecms.employer</groupId>
-      <artifactId>jobcase-theme</artifactId>
-      <version>${project.version}</version>
-    </dependency>
 
   </dependencies>
 

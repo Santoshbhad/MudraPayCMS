@@ -1,0 +1,3 @@
+class: info.magnolia.virtualuri.mapping.DefaultVirtualUriMapping
+fromUri: /favicon.ico
+toUri: forward:/.resources/mudrapay-theme/img/favicon.ico
