@@ -21,7 +21,7 @@
 <div class=${alignment}>
    <div class="smartLink">
 <a href="${(linkURL=='')?then('${externalLinkNew}','${cmsfn.link(linkURL)}')}" target="${openIn}">
-      <button type="button" class="btn ${buttonType} ${buttonSize} ">
+      <button type="button" class="btn custom-button ${buttonType} ${buttonSize} ">
       <span class="${iconType} ${iconPosition}"}> </span>
       ${linkLabel}
       [#if svgImage?has_content]

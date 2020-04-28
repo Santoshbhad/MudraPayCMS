@@ -3,7 +3,9 @@
 [#assign hideInDesktop = content.hideIndesktop!false /]
 [#if hideInMobile]
 <div class="hide-mobile">
-   [#if content.titleSize=="h2"]
+   [#if content.titleSize=="h1"]
+   <h1>${content.title}</h1>
+   [#elseif content.titleSize=="h2"]
    <h2>${content.title}</h2>
    [#elseif content.titleSize=="h3"]
    <h3>${content.title}</h3>
@@ -17,8 +19,10 @@
 </div>
 [#elseif hideInDesktop]
 <div class="hide-desktop">
-  [#if content.titleSize=="h2"]
-  <h2>${content.title}</h2>
+  [#if content.titleSize=="h1"]
+  <h1>${content.title}</h1>
+  [#elseif content.titleSize=="h2"]
+    <h2>${content.title}</h2>
   [#elseif content.titleSize=="h3"]
   <h3>${content.title}</h3>
   [#elseif content.titleSize=="h4"]
@@ -30,7 +34,9 @@
   [/#if]
 </div>
 [#else]
-[#if content.titleSize=="h2"]
+[#if content.titleSize=="h1"]
+<h1>${content.title}</h1>
+[#elseif content.titleSize=="h2"]
 <h2>${content.title}</h2>
 [#elseif content.titleSize=="h3"]
 <h3>${content.title}</h3>

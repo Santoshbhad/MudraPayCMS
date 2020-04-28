@@ -22,3 +22,5 @@ tabsWrapper:
  id: mudrapay-main:components/tabs/tabsWrapper
 carouselWrapper:
  id: mudrapay-main:components/carousel/carouselWrapper
+carouselWrapper:
+ id: mudrapay-main:components/header/header

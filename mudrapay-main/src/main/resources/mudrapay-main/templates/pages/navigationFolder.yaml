@@ -3,7 +3,7 @@ class: info.magnolia.rendering.template.configured.ConfiguredTemplateDefinition
 modelClass: FolderModel
 renderType: site
 type: navigation
-templateScript: /mudrapay-main/templates/pages/mudrapay.ftl
+templateScript: /mudrapay-main/templates/pages/main.ftl
 areas:
   main:
     editable: false

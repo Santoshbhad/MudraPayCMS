@@ -102,6 +102,16 @@ form:
             - name: jobCaseOrange
               label: Job Case Orange
 
+            - name: mudrapay-blue-button
+              label: Mudrapay Blue
+
+            - name: mudrapay-green-button
+              label: Mudrapay Green
+
+            - name: mudrapay-gray-button
+              label: Mudrapay Gray
+
+
         - name: iconType
           fieldType: select
           label: Icon Type

@@ -12,158 +12,24 @@ form:
         label: Default
         selected : true
 
-      - name:  needFinancialSupport
+      - name:  home-banner
         label: Need Financial Support
 
       - name:  topNavigation
         label: Top Navigation
 
-      - name: typesOfLoans
+      - name: types-of-loan
         label: Types Of Loans
 
-      - name: inovicingMadeEasy
+      - name: inovicing-made-easy
         label: Inovicing Made Easy
 
-      - name: tryOurApp
+      - name: try-our-app
         label: Try Our App
 
-      - name: contactUs
+      - name: contact-us
         label: Contact Us
 
-      - name: aboutUs_whyJobcase
-        label: Jobcase Page Banner [Why Jobcase/Chewy.com]
-
-      - name: aboutus_whatJobcaseDelivers
-        label: What Jobcase Delivers
-
-      - name: aboutus_jobcaseByTheNumbers
-        label: Jobcase By The Numbers
-
-      - name: pricing
-        label: Pricing Page Banner
-
-      - name: aboutus_meetTheCustomerSuccessTeam
-        label: Meet The Customer Success Team
-
-      - name: aboutus_hiringTodayChallenge
-        label: Hiring Today Is A Challenge
-
-      - name: jobcase_brandColumn
-        label: Jobcase Brand Columns
-
-      - name: jobcase_page_banner
-        label: Jobcase Page Banner
-
-      - name: jobcase_quote_content
-        label: Jobcase Quote Content
-
-      - name: jobcase_quote_image
-        label: Jobcase Quote Image
-
-      - name: jobcase_iframe
-        label: Jobcase Iframe
-
-      - name: jobcase_million_workers
-        label: A Community Of 90+ Million Workers
-
-      - name: jobcase_gets_your_message
-        label: Jobcase Gets Your Message To The Right People
-
-      - name: jobcase_customer_success_team_supports
-        label: Jobcase Customer Success Team Supports You
-
-      - name: jobcase_free_job_post
-        label: Jobcase Free Job Post
-
-      - name: jobcase_recruiting_professionals
-        label: Jobcase For Recruiting Professionals
-
-      - name: jobcase_explore_more_ways_to_hire
-        label: Explore More Ways To Hire Jobcase Members
-
-      - name: jobcase_pricing_list
-        label: Jobcase Pricing List
-
-      - name: view_more_case_studies
-        label: Jobcase View More Case Studies
-
-      - name: aboutUs_theJobcaseDifference_rightImg
-        label: Jobcase Difference Right Image
-
-      - name: aboutUs_theJobcaseDifference_leftImg
-        label: Jobcase Difference Left Image
-
-      - name: jobcase_for_recruiting_professionals_rightImg
-        label: Jobcase For Recruiting Professionals Right Image
-
-      - name: jobcase_for_recruiting_professionals_leftImg
-        label: Jobcase For Recruiting Professionals Left Image
-
-      - name: jobcase_for_recruiting_professionals_circleImg
-        label: Jobcase For Recruiting Professionals Cricle Image
-
-      - name: jobcase_for_recruiting_professionals_circle_rightImg
-        label: Jobcase For Recruiting Professionals Cricle Right Image
-
-      - name: jobcase_for_recruiting_professionals_circle_leftImg
-        label: Jobcase For Recruiting Professionals Cricle Left Image
-
-      - name: jobcase_solutions_for_recruiting_professionals_rightImg
-        label: Jobcase Solutions for Recruiting Professionals Right Image
-
-      - name: jobcase_solutions_for_recruiting_professionals_leftImg
-        label: Jobcase Solutions for Recruiting Professionals Left Image
-
-      - name: jobcase_hiring_managers_rightImg
-        label: Jobcase Hiring Managers Right Image
-
-      - name: jobcase_solutions_new_store_opening_leftImg
-        label: Jobcase Solutions New Store Opening Left Image
-
-      - name: jobcase_page_banner_two
-        label: Jobcase Page Banner Common
-
-      - name: jobcase_quote_content_background
-        label: Jobcase Quote Content Background
-
-      - name: jobcase_page_banner_three
-        label: Jobcase Page Banner [Recruiting Professionals]
-
-      - name: jobcase_link
-        label: Jobcase Link
-
-      - name: jobcase_contact
-        label: Jobcase Contact Us
-
-      - name: jobcase_contact_thankyou
-        label: Jobcase Contact Us Thank You Page
-
-      - name: jobcase_hiring_managers_free_job_post
-        label: Jobcase Hiring Managers Free job post
-
-      - name: jobcase_tell_us_about_yourself
-        label: Jobcase Tell us about yourself
-
-      - name: jobcase_tell_us_about_yourself_banner
-        label: Jobcase Tell us about yourself Page Banner
-
-      - name: jobcase_hire_a_jobcase_landing_page
-        label: Jobcase Hire a Jobcase [Landing page]
-
-      - name: jobcase_meet_jobcase_members_landing_page
-        label: Jobcase Meet Jobcase Members [Landing page]
-
-      - name: get_started_with_jobcase_for_gig_companies
-        label: Get started with Jobcase for Gig Companies
-
-      - name: jobcase_results_matter
-        label: Jobcase Results matter
-
-      - name: brandImageSectionLandingPage
-        label: Brand Image Section [Landing page]
-
-      - name: jobcaseform
-        label: Jobcase Form [Landing Page]
 
   - name: tabButtonAndIcon
     label: Layout

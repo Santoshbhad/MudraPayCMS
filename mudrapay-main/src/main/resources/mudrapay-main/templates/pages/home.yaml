@@ -1,7 +1,7 @@
 title: mudrapay-main.page.home.title
 dialog: mudrapay-main:pages/homePageProperties
 class: info.magnolia.rendering.template.configured.ConfiguredTemplateDefinition
-templateScript: /mudrapay-main/templates/pages/mudrapay.ftl
+templateScript: /mudrapay-main/templates/pages/main.ftl
 renderType: site
 type: home # it's important for navigation to have HOME type here
 # Enabling editing header and footer areas because it's disabled in prototype.yaml

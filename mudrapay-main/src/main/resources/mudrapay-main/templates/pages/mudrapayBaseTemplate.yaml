@@ -1,0 +1,17 @@
+dialog: mudrapay-main:pages/pageProperties
+templateScript: /mudrapay-main/templates/pages/main.ftl
+renderType: freemarker
+visible: true
+title: mudrapay-main.page.mudrapayBaseTemplate.title
+
+areas:
+  header:
+    renderType: freemarker
+    availableComponents: !include:/mudrapay-main/includes/components/commonAvailableComponents.yaml
+  main:
+    renderType: freemarker
+    availableComponents: !include:/mudrapay-main/includes/components/commonAvailableComponents.yaml
+  footer:
+    renderType: freemarker
+    availableComponents: !include:/mudrapay-main/includes/components/commonAvailableComponents.yaml
+

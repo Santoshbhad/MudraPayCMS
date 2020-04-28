@@ -11,7 +11,7 @@ templateScript: /mudrapay-main/templates/pages/main.ftl
 renderType: freemarker
 visible: true
 type: feature
-title: "Employer Interior Page"
+title: mudrapay-main.page.interior.title
 subtype: test-test
 areas:
   main:

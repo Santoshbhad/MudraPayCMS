@@ -21,7 +21,7 @@
     [#assign svgImage = "/jobcase-theme/src/main/resources/jobcase-theme/img/placeholder.jpg"]
 [/#if]
 <div class="${display_as} ${themeSelector}">
-   <div class="image-bg jobcaseEmp-bg whyJobcase-bg pricing-bg contactUs-bg banner-bg homeDepot-bg million_workers-bg gets_your_message-bg" style = "background-image:url(${svgImage});">
+   <div class=" contactUs-bg " style = "background-image:url(${svgImage});">
       <div class=" ${(limit_container=='true')?then('container','container-fluid')}"   style="background-color: ${themeColor}; color:${textColor}; background-color: ${themeColorPicker};">
          <div class="${content.padding}">
             <div class="${content.margin}">

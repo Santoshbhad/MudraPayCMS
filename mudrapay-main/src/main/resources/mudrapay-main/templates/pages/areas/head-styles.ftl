@@ -1,7 +1,7 @@
 [@assignValues/]
 
 [#-- Place favicon.ico and apple-touch-icon.png --]
-<link rel="icon" href="${ctx.contextPath}/.resources/${theme.name}/favicon.ico" />
+[#--<link rel="icon" href="${ctx.contextPath}/.resources/${theme.name}/favicon.ico" />--]
 
 [#--  Owl Carousel CSS files from the CDN --]
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
