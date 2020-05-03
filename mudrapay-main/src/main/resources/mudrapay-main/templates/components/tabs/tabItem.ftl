@@ -8,7 +8,7 @@
   [@cms.area name="tabItem" /]
   [#list 1..columnCount as columnIndex]
   [#if columnCount??]
-  <div class="col-sm-${layouts[columnIndex - 1]}">
+  <div class="col-md-${layouts[columnIndex - 1]}">
      [@cms.area name="column${columnIndex}"/]
   </div>
   [/#if]

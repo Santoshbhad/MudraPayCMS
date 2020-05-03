@@ -30,7 +30,7 @@
                   <div class ="center">
                      <div class="row">
                         [#list 1..columnCount as columnIndex]
-                        <div class="col-sm-${layouts[columnIndex - 1]}">
+                        <div class="col-md-${layouts[columnIndex - 1]}">
                            [@cms.area name="column${columnIndex}"/]
                         </div>
                         [/#list]
@@ -38,7 +38,7 @@
                      [#else]
                      <div class="row">
                         [#list 1..columnCount as columnIndex]
-                        <div class="col-sm-${layouts[columnIndex - 1]}">
+                        <div class="col-md-${layouts[columnIndex - 1]}">
                            [@cms.area name="column${columnIndex}"/]
                         </div>
                         [/#list]

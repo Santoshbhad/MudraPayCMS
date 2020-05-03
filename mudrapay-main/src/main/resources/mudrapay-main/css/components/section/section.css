@@ -5,8 +5,11 @@ html {
 .pointer{
     cursor: pointer;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 /* mudrapay */
-
 /* -------------- home-banner Section -------------------*/
 .home-banner img{
     width: 550px;
@@ -26,26 +29,67 @@ html {
     margin-bottom: 50px;
     font-weight: lighter;
 }
-.custom-button{
+.home-banner .container .col-md-6 .default .container-fluid .col-md-12 .right{
+    margin-left: 30px;
+}
+.home-banner .container .col-md-6 .default .container-fluid{
+    padding: 0px;
+}
+@media (min-width: 575px){
+    .home-banner img {
+        width: 550px;
+    }
+    .home-banner .container .col-md-6 .default .container-fluid .col-md-6{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+@media (min-width: 768px){
+    .mudrapay-services .col-md-2 {
+        max-width: 100%;
+    }
+}
+@media (max-width: 991.98px) and (min-width: 768px){
+    .home-banner img {
+        width: 350px;
+    }
+    .home-banner h1 {
+        font-size: 26px;
+    }
+    .custom-button {
+        width: 140px;
+    }
+}
+@media (max-width: 1199.98px) and (min-width: 992px){
+    .home-banner img {
+        width: 485px;
+    }
+    .home-banner .container .col-md-6 .default .container-fluid .col-md-6{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+.custom-button {
     margin: 30px 0px;
-    padding: 5px 16px;
+    padding: 5px 16px !important;
     text-decoration: none;
-    font-family: "Poppins";
+    font-family: "Poppins" !important;
+    font-size: 14px !important;
     text-transform: none;
     height: 50px;
     width: 170px;
     box-shadow: 0px 0px 6px #616161;
 }
 .mudrapay-blue-button{
-    background: #394264;
+    background: #394264 !important;;
     color: #ffffff !important;
 }
 .mudrapay-green-button{
-    background: #73b819;
+    background: #73b819 !important;;
     color: #ffffff !important;;
 }
 .mudrapay-gray-button{
-    background: #e8e8e8;
+    background: #e8e8e8 !important;;
     color: #464646 !important;;
 }
 .custom-button:hover {
@@ -54,65 +98,98 @@ html {
 /* -------------- types-of-loan Section -------------------*/
 .types-of-loan{
     background-color: #394264;
-    padding: 50px 0px;
+    padding: 50px;
 }
-.types-of-loan .col-sm-6:first-of-type p strong,
-.inovicing-made-easy .col-sm-6:last-child p strong,
-.try-our-app .col-sm-6 p strong{
+.inovicing-made-easy{
+    padding: 50px;
+}
+.types-of-loan .col-md-6:first-of-type p strong{
     font-family: "Poppins";
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: bold;
     margin: 40px 10px 15px 0;
     text-transform: uppercase;
+    color: #fff;
 }
-.types-of-loan .col-sm-6:first-of-type p em,
-.inovicing-made-easy .col-sm-6:last-child p em,
-.try-our-app .col-sm-6 p em{
+.inovicing-made-easy .col-md-6:last-child p strong,
+.try-our-app .col-md-6 p strong{
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: bold;
+    margin: 40px 10px 15px 0;
+    text-transform: uppercase;
+    color: #000;
+}
+.types-of-loan .col-md-6:first-of-type p em {
     font-family: "Poppins";
     font-size: 35px;
     margin: 40px 0 15px 0;
     font-weight: lighter;
+    font-style: normal;
     text-transform: uppercase;
+    color: #fff;
 }
-.types-of-loan .col-sm-6:first-of-type img,
-.inovicing-made-easy .col-sm-6:last-child img,
-.try-our-app .col-sm-6:first-of-type img{
+.inovicing-made-easy .col-md-6:last-child p em,
+.try-our-app .col-md-6 p em{
+    font-family: "Poppins";
+    font-size: 35px;
+    margin: 40px 0 15px 0;
+    font-weight: lighter;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #000;
+}
+.types-of-loan .col-md-6:first-of-type img,
+.inovicing-made-easy .col-md-6:last-child img,
+.try-our-app .col-md-6:first-of-type img{
     width: 150px;
     margin-left: -10px;
     margin-bottom: 15px;
 }
-.types-of-loan .col-sm-6:first-of-type p,
-.inovicing-made-easy .col-sm-6:last-child p,
-.try-our-app .col-sm-6 p, .try-our-app .col-sm-6 ul li p{
+.types-of-loan .col-md-6:first-of-type p {
     font-family:"Poppins";
     font-weight: 300;
     font-size: 18px;
     margin-bottom: 20px;
     margin-right: 70px;
+    color: #fff;
 }
-.types-of-loan .col-sm-6:last-child .col-sm-6 {
+.inovicing-made-easy .col-md-6:last-child p,
+.try-our-app .col-md-6 p, .try-our-app .col-md-6 ul li p{
+    font-family:"Poppins";
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+    color: #000;
+}
+.types-of-loan .col-md-6:last-child .col-md-3   {
     min-height: 235px;
     max-width: 250px;
     margin: 20px;
     background-color: #fff;
     border-radius: 0px;
     box-shadow: 0px 0px 30px #000;
+    flex: 0 0 45% !important;
 }
-.types-of-loan .col-sm-6:last-child .col-sm-6 img{
+.types-of-loan .col-md-6:last-child .col-md-3 img{
     display: block;
     margin: auto;
     width: 125px;
     margin-top: 20px;
 }
-.types-of-loan .col-sm-6:last-child .col-sm-6 p{
+.types-of-loan .col-md-6:last-child .col-md-3 p{
     font-family: "Poppins";
     font-weight: 300;
     font-size: 14px;
-    padding: 1.25rem;
+    padding: 1.25rem 0;
+    margin-right: 0;
+    margin-bottom: 0;
     text-align: center;
+    color: #000;
 }
 /* -------------- inovicing-made-easy Section -------------------*/
-.inovicing-made-easy .col-sm-6:first-of-type img{
+.inovicing-made-easy .col-md-6:first-of-type img{
     width: 375px;
     height: 450px;
     margin-left: auto;
@@ -120,12 +197,22 @@ html {
     display: block;
     margin-top: 25px;
 }
+.inovicing-made-easy .col-md-6 .default .container-fluid .col-md-12{
+    display: flex;
+}
+.inovicing-made-easy .col-md-6 .default .container-fluid{
+    padding: 0;
+}
+.inovicing-made-easy .col-md-6 .default .container-fluid .col-md-12 .left{
+    width: 200px;
+}
+
 /* -------------- try-our-app Section -------------------*/
 .try-our-app{
     background-color: #f1f1f1ed;
-    padding: 50px 0px;
+    padding: 50px;
 }
-.try-our-app .col-sm-6 ul li::before{
+.try-our-app .col-md-6 ul li::before{
     content: '■';
     color: #73b819;
     position: absolute;
@@ -133,7 +220,10 @@ html {
     margin-left: -26px;
     margin-top: -6px;
 }
-.try-our-app .col-sm-6:last-child img{
+.try-our-app .col-md-6 ul li{
+    list-style-type:none;
+}
+.try-our-app .col-md-6:last-child img{
     width: 315px;
     height: 500px;
     margin-left: auto;
@@ -141,10 +231,119 @@ html {
     display: block;
     margin-top: 10px;
 }
+/* -------------- mudrapay services -------------------*/
+.mudrapay-services .col-md-2{
+    min-width: 150px;
+    max-width: 500px;
+    border-radius: 0px;
+    background-color: #f5f5f5;
+    color: #3c3c3c;
+    border: 2px solid #aab1ba;
+    text-decoration: none;
+}
+.mudrapay-services .col-md-2:hover{
+    background: linear-gradient(to top, #73b819 -10%, #ffffff 100%);
+    box-shadow: 0px 0px 3px #394263;
+    z-index: 1;
+    font-weight: 600;
+    color: #fff;
+}
+.mudrapay-services .col-md-2:hover img {
+    width: 144px;
+    margin-top: 1px;
+    transition: 0.5s;
+}
+.mudrapay-services .col-md-2:hover p {
+    font-size: 19px;
+    margin-top: 0px;
+    transition: 0.25s;
+    margin-bottom: 5px;
+}
+.mudrapay-services img{
+    display: block;
+    margin: auto;
+    width: 125px;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.mudrapay-services p{
+    padding-top: 0px;
+    font-family: "Poppins";
+    font-size: 16px;
+    text-align: center;
+}
+/* -------------- 5 column css for mudrapay  -------------------*/
+@media (min-width: 768px){
+    .mudrapay-services .col-md-2 {
+        width: 20% !important;
+    }
+}
+@media (min-width: 768px){
+    .mudrapay-services .col-md-2{
+        float: left;
+    }
+}
+@media (min-width: 576px){
+    .mudrapay-services .col-md-2 {
+        -ms-flex: 0 0 20%  !important;
+        flex: 0 0 20% !important;
+        max-width: 20% !important;
+    }
+}
+.mudrapay-services .col-md-2{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (max-width: 767.98px) and (min-width: 576px){
+    .mudrapay-services .col-md-2 {
+        min-width: 250px;
+        max-width: 383px;
+    }
+}
 /* -------------- contact-us Section -------------------*/
+.contact-us .container-fluid{
+    padding: 25px 20px 10px 20px;
+}
+.contact-us .test{
+    text-align: center;
+}
+.contact-us .FAicon{
+    color: #394264;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px 15px;
+    padding: 10px 14px;
+    background-color: #f2f2f2;
+}
+.contact-us .mudrapay-social-media{
+    color: #394264;
+    font-size: 20px !important;
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    margin: 10px 15px;
+    padding: 2px 13px 3px 13px !important;
+    background-color: #f2f2f2;
+}
+.contact-us .mudrapay-social-media:hover{
+    color: #73b819;
+}
+.contact-us hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    background: rgba(195, 195, 195, 0.46);
+}
 .contact-us{
     width: 100%;
-    padding: 40px 40px 0px 40px;
     max-height: 450px;
     object-fit: cover;
     height: max-content;
@@ -182,10 +381,27 @@ html {
 .contact-us p em a:hover{
     color: #73b819;
 }
-
+/* -------------- Button alignment CSS -------------------*/
+.contact-us .container-fluid .col-md-12{
+    display: flex;
+}
+.contact-us .container-fluid .col-md-12 .center:first-of-type{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+}
+.contact-us .container-fluid .col-md-12 .center:last-child{
+    width: 200px;
+    display: block;
+    margin-right: auto;
+}
+/* -------------- Social media button alignment CSS -------------------*/
+/* .contact-us .container-fluid .col-md-12 .center{
+    width: 65px;
+    display: inline-flex;
+} */
 /* -------------- Extra small devices (portrait phones, less than 576px) -------------------*/
 @media (max-width: 575.98px) {
-
 }
 /* -------------- Small devices -------------------*/
 @media (max-width: 767.98px) {
@@ -198,17 +414,16 @@ html {
     .home-banner p{
         margin-bottom: 30px;
     }
-    .types-of-loan .col-sm-6:first-of-type p {
+    .types-of-loan .col-md-6:first-of-type p {
         margin-right: 0px;
     }
-    .types-of-loan .col-sm-6:last-child .col-sm-6 {
+    .types-of-loan .col-md-6:last-child .col-md-6 {
         display: block;
         margin: 20px auto 35px;
     }
 }
 /* -------------- Small devices (landscape phones, 576px and up) -------------------*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-
 }
 /* -------------- Medium devices (tablets, 768px and up) -------------------*/
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -216,20 +431,20 @@ html {
         font-size: 28px;
         margin: 55px 0 0 0;
     }
-    .types-of-loan .col-sm-6:first-of-type p strong{
+    .types-of-loan .col-md-6:first-of-type p strong{
         font-size: 28px;
     }
-    .types-of-loan .col-sm-6:first-of-type p em{
+    .types-of-loan .col-md-6:first-of-type p em{
         font-size: 28px;
     }
-    .types-of-loan .col-sm-6:first-of-type p {
+    .types-of-loan .col-md-6:first-of-type p {
         margin-right: 0px;
     }
-    .types-of-loan .col-sm-6:last-child .col-sm-6 {
+    .types-of-loan .col-md-6:last-child .col-md-6 {
         min-height: 270px;
         margin: 0 0 20px 0;
     }
-    .try-our-app .col-sm-6:last-child img{
+    .try-our-app .col-md-6:last-child img{
         width: 250px;
         height: 400px;
     }
@@ -242,159 +457,12 @@ html {
     .home-banner h1{
         margin: 100px 0 0 0;
     }
-    .types-of-loan .col-sm-6:last-child .col-sm-6 {
+    .types-of-loan .col-md-6:last-child .col-md-6 {
         margin: 0 0 25px 0;
     }
 }
 /* -------------- Extra large devices (large desktops, 1200px and up) -------------------*/
 @media (min-width: 1200px) {
-
 }
-
-
-/* Top Navigation Section */
-
-/* Top Navigation Section End */
-
-
 
 /* mudrapay  end*/
-
-
-
-.section-main .layout .center .row {
-	text-align: center;
-}
-
-.marginLeftRight {
-	margin-left: 30px;
-	margin-right: 30px;
-}
-
-.marginTopBottom {
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
-.paddingLeftRight {
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
-.paddingTopBottom {
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-.layout .center {
-	text-align: center;
-}
-
-
-/** Get to know Jobcase **/
-
-.getToKnowJobcase {
-	padding-bottom: 40px;
-}
-
-.getToKnowJobcase h1 {
-	font-size: 28px;
-	text-align: center;
-}
-
-.getToKnowJobcase h2 {
-	padding-top: .5em;
-	padding-bottom: .3em;
-	font-size: 22px;
-	text-align: center;
-}
-
-.getToKnowJobcase p {
-	text-align: center;
-	margin: 0 0 10px;
-	font-size: 18px;
-	padding-top: 1em;
-}
-
-.getToKnowJobcase img {
-	padding-top: 3em;
-	padding-bottom: 2em;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-}
-
-
-/** Hero banner section **/
-
-.heroBanner .image-bg {
-	width: 100%;
-	height: 700px;
-	margin-top: 52px;
-	text-align: center;
-	color: white;
-	background-size: cover;
-}
-
-.heroBanner h1 {
-	padding-top: 7em;
-	color: #fff;
-	text-align: center;
-	font-size: 44px;
-	font-weight: 500;
-}
-
-.heroBanner h2 {
-	color: #fff;
-	text-align: center;
-	font-size: 44px;
-	font-weight: 500;
-}
-
-.heroBanner .jobCaseOrange {
-	margin-top: 30px;
-	background-color: #FF9000;
-	color: #fff;
-	border: 1px solid transparent;
-	text-align: center;
-	border-radius: 3px;
-	font-size: 18px;
-	line-height: 1.33333;
-}
-
-
-/** Jobcase Employers section **/
-
-.jobcaseEmployers {
-	color: white;
-	background-size: cover;
-}
-
-.jobcaseEmployers img {
-	display: block;
-	width: 20em;
-	height: auto;
-	margin: auto;
-}
-
-.jobcaseEmp-bg {
-	color: white;
-	background-size: cover;
-}
-
-.jobcaseEmployers h2 {
-	text-align: center;
-	margin-top: 20px;
-	padding-bottom: 1em;
-	font-size: 30px;
-}
-
-.jobcaseEmployers p {
-	text-align: center;
-	font-size: 17px;
-}
-
-.jobcaseEmployers .container {
-	padding: 4em 14em 4em;
-}

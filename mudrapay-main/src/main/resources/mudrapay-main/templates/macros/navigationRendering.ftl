@@ -25,7 +25,7 @@
         <div class="row pl">
             [#assign colSm = (12 / parentItem.children?size)?floor]
             [#list parentItem.children as navItem]
-                <div class="col-sm-[#if colSm > 2]${colSm}[#else]2[/#if]">
+                <div class="col-md-[#if colSm > 2]${colSm}[#else]2[/#if]">
                     <h4>[@printNavItem navItem/]</h4>
                     [#if navItem.item.navigationDescription?has_content]
                         <span>${navItem.item.navigationDescription!}</span>

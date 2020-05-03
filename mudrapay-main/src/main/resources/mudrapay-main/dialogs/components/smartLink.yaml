@@ -111,6 +111,9 @@ form:
             - name: mudrapay-gray-button
               label: Mudrapay Gray
 
+            - name: mudrapay-social-media
+              label: Mudrapay Social Media
+
 
         - name: iconType
           fieldType: select
@@ -130,6 +133,19 @@ form:
 
             - name: glyphicon glyphicon-chevron-down
               label: Single Arrow Down
+
+            - name: fa fa-facebook
+              label: Facebook
+
+            - name: fa fa-twitter
+              label: Twitter
+
+            - name: fa fa-android
+              label: Android App
+
+            - name: fa fa-whatsapp
+              label: Whats App
+
 
         - name: iconPosition
           fieldType: select
